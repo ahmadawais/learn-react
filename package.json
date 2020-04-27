@@ -1,0 +1,24 @@
+{
+	"name": "learn-react",
+	"version": "0.0.1",
+	"description": "Learn React.js with Awais.",
+	"license": "MIT",
+	"repository": "ahmadawais/learn-react",
+	"author": {
+		"name": "Ahmad Awais",
+		"email": "me@AhmadAwais.com",
+		"url": "https://twitter.com/MrAhmadAwais"
+	},
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"learn-react",
+		"Ahmad Awais",
+		"ahmadawais"
+	],
+	"scripts": {
+		"test": "node test.js"
+	}
+}
