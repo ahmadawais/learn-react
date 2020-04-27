@@ -35,7 +35,7 @@ Check out the markdown files in the course folder.
 
 ## License & Conduct
 
-- MIT © [Ahmad Awais](https://twitter.com/MrAhmadAwais/)
+- Copyright © [Ahmad Awais](https://twitter.com/MrAhmadAwais/)
 - [Code of Conduct](code-of-conduct.md)
 
 <br>
