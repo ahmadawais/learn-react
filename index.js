@@ -1,4 +1,0 @@
-/**
- * Learn React.
- */
-module.exports = () => {};

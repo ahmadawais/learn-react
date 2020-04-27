@@ -7,23 +7,11 @@
 
 <br>
 
-[![📟](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/install.png)](./../../)
-
-## Install
-
-```sh
-npm install learn-react
-```
-
-<br>
-
 [![⚙️](https://raw.githubusercontent.com/ahmadawais/stuff/master/images/git/usage.png)](./../../)
 
 ## Usage
 
-```js
-const learnReact = require('learn-react');
-```
+Check out the markdown files in the course folder.
 
 <br>
 
