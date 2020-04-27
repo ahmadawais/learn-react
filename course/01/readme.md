@@ -34,11 +34,11 @@ The final code can be found in the [`index.html`](./index.html) file.
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Learn React with Awais</title>
+		<title>Learn React.js with Awais</title>
 	</head>
 	<body>
 		<div id="root"></div>
-		<script src="script.js" type="text/javascript"></script>
+		<script src="main.js" type="text/javascript"></script>
 	</body>
 </html>
 ```
@@ -47,10 +47,10 @@ The final code can be found in the [`index.html`](./index.html) file.
 // 1. Access the `root` element.
 const root = document.querySelector('#root');
 
-// 2. Append a heading to it.
+// 2. Append a heading to the `root` element.
 const heading = document.createElement('h1');
+heading.textContent = 'Crazy! Learn React with Awais';
 
-heading.textContent = 'Learn React with Awais';
 root.appendChild(heading);
 ```
 
