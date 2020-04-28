@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Learn React.js with Awais</title>
+	</head>
+	<body>
+		<div id="root"></div>
+
+		<script src="https://unpkg.com/react@16.7.0/umd/react.production.min.js" type="text/javascript"></script>
+		<script src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.production.min.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			const root = document.querySelector('#root');
+			const e = React.createElement;
+			const element = e('div', {
+				children: ['Yolo', ' Hi', e('span', null, 'NEW')],
+				className: 'wrapper',
+			});
+
+			console.log(element);
+
+			ReactDOM.render(element, root);
+
+			// const element = document.createElement('h1');
+			// element.textContent = 'Crazy! Learn React with Awais';
+			// root.appendChild(element);
+		</script>
+	</body>
+</html>
